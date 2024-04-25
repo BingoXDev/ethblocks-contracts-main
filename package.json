@@ -1,0 +1,37 @@
+{
+  "name": "ethblocks-contracts",
+  "version": "0.1.0",
+  "description": "ethblocks-contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache-cli": "npx ganache-cli -d -p 7545 --gasLimit=10000000",
+    "develop": "truffle develop",
+    "compile": "truffle compile",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyEtherWallet/ethblocks-contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "ethblocks"
+  ],
+  "author": "kvhnuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyEtherWallet/ethblocks-contracts/issues"
+  },
+  "homepage": "https://github.com/MyEtherWallet/ethblocks-contracts#readme",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "ethereumjs-util": "^7.1.2",
+    "truffle": "^5.4.13",
+    "truffle-plugin-verify": "^0.5.16"
+  },
+  "dependencies": {}
+}
